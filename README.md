@@ -39,19 +39,19 @@ Open your browser and navigate to http://localhost:8080 to see the Chatbot Progr
 Project Structure
 The project structure is organized to follow best practices for a React application. Here's a brief overview of important directories and files:
 
-src/client: Contains the source code of the React application.
-actions/: Reducer actions.
-assets/: Static assets such as images and fonts.
-components/: Reusable React components used in the project.
-hooks/: Custom React hooks.
-layouts/: Page layouts.
-pages/: Pages for routing.
-providers/: Context providers.
-stub-data/: Mock data for development.
-styles/: Styled-Components styles and global styles.
-utils/: Utility functions.
-App.tsx: The main entry point for the application.
-index.tsx: Main index file.
-webpack.config.js: Webpack configuration file for bundling the application.
-babelrc: Babel configuration file for transpiling TypeScript code.
-package.json: Node.js project configuration file with dependencies and scripts.
+- `src/client/`: Contains the source code of the React application.
+  - `actions/`: Redux actions.
+  - `assets/`: Static assets such as images and fonts.
+  - `components/`: Reusable React components used in the project.
+  - `hooks/`: Custom React hooks.
+  - `layouts/`: Layout components.
+  - `pages/`: Top-level pages for routing.
+  - `providers/`: Context providers.
+  - `stub-data/`: Mock data for development and testing.
+  - `styles/`: Styled-Components styles and global styles.
+  - `utils/`: Utility functions.
+- `App.tsx`: The main entry point for the application.
+- `index.tsx`: Main index file.
+- `webpack.config.js`: Webpack configuration file for bundling the application.
+- `babel.config.js`: Babel configuration file for transpiling TypeScript code.
+- `package.json`: Node.js project configuration file with dependencies and scripts.
