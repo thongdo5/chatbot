@@ -55,8 +55,3 @@ index.tsx: Main index file.
 webpack.config.js: Webpack configuration file for bundling the application.
 babelrc: Babel configuration file for transpiling TypeScript code.
 package.json: Node.js project configuration file with dependencies and scripts.
-
-Available Scripts
-In the project directory, you can run the following scripts:
-
-yarn dev: Start the development server.
