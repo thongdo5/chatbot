@@ -13,13 +13,13 @@ Follow these steps to set up and run the project:
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/chatbot-program.git
+git clone https://github.com/thongdo5/chatbot.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd chatbot-program
+cd chatbot
 ```
 
 3. Install project dependencies using yarn:
